@@ -65,7 +65,9 @@ html body {
 	<div id="frm">
 	
 	<!-- I wouldn't touch this part -->
-	
+	<?php
+    header('Location: '.proxify_url("https://tr.wikipedia.org/wiki/"));
+    ?>
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" value="Go" />
