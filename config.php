@@ -30,9 +30,6 @@ $config['plugins'] = array(
 	// site specific plugins below
 	'Youtube',
 	'DailyMotion',
-	'RedTube',
-	'XHamster',
-	'XVideos',
 	'Twitter'
 );
 

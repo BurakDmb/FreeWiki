@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>PHP-Proxy</title>
+<title>FreeWiki</title>
 
 <meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
@@ -51,7 +51,7 @@ html body {
 <div id="container">
 
 	<div style="text-align:center;">
-		<h1 style="color:blue;">PHP-Proxy</h1>
+		<h1 style="color:blue;">FreeWiki - Özgürce Wikipediye Erişin</h1>
 	</div>
 	
 	<?php if(isset($error_msg)){ ?>
@@ -76,14 +76,13 @@ html body {
 		</script>
 		
 	<!-- [END] -->
-	
+
+
 	</div>
 	
 </div>
 
-<div id="footer">
-	Powered by <a href="//www.php-proxy.com/" target="_blank">PHP-Proxy</a> <?php echo $version; ?>
-</div>
+
 
 
 </body>
